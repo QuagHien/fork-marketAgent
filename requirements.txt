@@ -1,0 +1,7 @@
+# for pytorch
+torch
+transformers
+
+# onnx
+onnxruntime
+git+https://github.com/hieupth/fastokenizer.git
