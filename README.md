@@ -2,12 +2,12 @@
 
 Clone github
 ```
-  git clone https://github.com/tien-ngnvan/fork-marketAgent.git
-  cd fork-marketAgent
+	git clone https://github.com/tien-ngnvan/fork-marketAgent.git
+	cd fork-marketAgent
 ```
 Download models and move 'model.onnx' files from downloaded model folders to ' model_repository/<'Corresponding model name folder'> '
 ```
-  gdown 1IaCcVfB9ibZi52WfvTg7FKihSAKlQ9uZ
+	gdown 1IaCcVfB9ibZi52WfvTg7FKihSAKlQ9uZ
 ```
 Run container docker triton server (24.08) with CPU:
 ```
