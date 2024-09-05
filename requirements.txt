@@ -5,3 +5,11 @@ transformers
 # onnx
 onnxruntime
 git+https://github.com/hieupth/fastokenizer.git
+
+gdown
+fastapi 
+uvicorn 
+jinja2 
+tritonclient[all]
+attrdict
+python-multipart
