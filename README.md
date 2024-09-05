@@ -5,7 +5,7 @@ Clone github
   git clone https://github.com/tien-ngnvan/fork-marketAgent.git
   cd fork-marketAgent
 ```
-Download models and move 'model.onnx' files from downloaded model folders to model_repository/<'Corresponding model name folder'> 
+Download models and move 'model.onnx' files from downloaded model folders to ' model_repository/<'Corresponding model name folder'> '
 ```
   gdown 1IaCcVfB9ibZi52WfvTg7FKihSAKlQ9uZ
 ```
