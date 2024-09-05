@@ -1,0 +1,3 @@
+name: "mbert-retrieve-qry-onnx"
+
+platform: "onnxruntime_onnx"
