@@ -1,0 +1,3 @@
+name: "mbert-rerank-onnx"
+
+platform: "onnxruntime_onnx"
