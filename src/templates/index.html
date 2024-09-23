@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model Inference</title>
+    <style>
+        /* Ensure the output wraps and fits within the page width */
+        pre {
+            white-space: pre-wrap; /* Allows text to wrap */
+            word-wrap: break-word;  /* Breaks long words */
+        }
+    </style>
+</head>
+<body>
+    <h1>Model Inference</h1>
+    <form action="/process/" method="post">
+        <div>
+            <label for="text1">Input Text:</label>
+            <input type="text" id="text1" name="text1" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if result %}
+    <h2>Output</h2>
+    <pre id="output"></pre>
+    <script>
+        // Assume 'result' is a list or array of numbers
+        let result = {{ result | safe }};
+
+        // Convert the array directly to a string with brackets
+        let outputString = JSON.stringify(result);
+
+        // Display the full array as a string with brackets
+        document.getElementById('output').textContent = outputString;
+    </script>
+    {% endif %}
+</body>
+</html>
