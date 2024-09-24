@@ -29,7 +29,7 @@ Chạy file demo_rag.py được:
 
 -Chunking theo SemanticChunker thì khó kiểm soát được độ dài của mỗi chunk (langchain không có tham số hỗ trợ và nếu tự code để cắt thì cắt giữa chừng 1 chunk sẽ khiến ngữ nghĩa bị ảnh hưởng, rất có thể tạo ra 1 chunk rất dài 1 chunks cực kỳ ngắn).
 
--Chunking theo Agentic Chunking sử dụng LLMs thì model tốt thì cần gọi API, model open thì hên xui, code phức tạp, thời gian chunk lâu vì đợi LLM, khó kiểm soát được độ dài của mỗi chunk tương tự SemanticChunker.
+-Chunking theo Agentic Chunking sử dụng LLMs thì model tốt thì cần gọi API, model open thì hên xui, code phức tạp, thời gian chunk lâu vì đợi LLM, khó kiểm soát được độ dài của mỗi chunk tương tự SemanticChunker. (Đã dùng langchain-ollamacode code ở https://github.com/tien-ngnvan/fork-marketAgent/blob/hienhq/examples/Agentic_Chunking_LAMMA3_1.ipynb)
 
 -LLM để hỏi đáp thì ít có model open nào hiệu suất tốt cho cả tiếng anh lẫn tiếng việt.
 
